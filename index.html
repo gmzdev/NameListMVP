@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en" data-framework="es6">
+
+<head>
+	<meta charset="utf-8">
+	<title>TS Script</title>
+	<!-- <link rel="stylesheet" href="node_modules/todomvc-app-css/index.css"> -->
+</head>
+
+<body>
+	<section id="name-app">
+		<header id="header">
+			<form id="user-form">
+				<label>First Name:</label>
+				<input id="first-name" value="" />
+				<label>Last Name:</label>
+				<input id="last-name" value="" />
+				<button type="submit"> register </button>
+			</form>
+		</header>
+		<section id="content">
+			<h3 id="full-name">Registered Names:</h3>
+			<ul id="names"></ul>
+		</section>
+	</section>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="dist/out.js"></script>
+	<script>
+		Program.main();
+	</script>
+</body>
+
+</html>

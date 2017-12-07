@@ -1,0 +1,17 @@
+{
+  "name": "tscript",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jquery": "^3.2.16",
+    "http-server": "^0.10.0",
+    "typescript": "^2.5.3"
+  },
+  "scripts": {
+    "serve": "http-server",
+    "watch": "tsc --watch"
+  },
+  "author": "gmzdev",
+  "license": "ISC"
+}

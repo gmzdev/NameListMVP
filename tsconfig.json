@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "target": "es6",
+        "rootDir": "./src/",
+        "outFile": "./dist/out.js",
+        "typeRoots": [
+            "node_modules/@types"
+        ]
+    
+    },
+    "exclude": [
+        "node_modules",
+        "typings",
+        "dist"
+    ]
+}
